@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(54, 125, 125);
+    margin: 0;
+}
+
+.todo-container{
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.input-section{
+    background-color: #ececec;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.input-section input{
+    border-radius: 5px ;
+    border: 1px solid silver;
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box;
+    
+}
+
+input::placeholder{
+    color: silver;
+}
+
+ul{
+ padding: 0;
+}
+
+ul li{
+    list-style: none;
+    background-color: #fff;
+    text-align: left;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #467a90;
+    display: flex;
+   align-items: center;  
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+    color: rgb(54, 125, 125);
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+}
